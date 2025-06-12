@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+}
+body {
+  background: $color-background;
+}
+
+main {
+  @include flex-center;
+  min-height: 80vh;
+}
